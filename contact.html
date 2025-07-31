@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us – DAS Consultancy</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="js/includes.js" defer></script>
+</head>
+<body>
+
+  <!-- Header (from partial) -->
+  <div data-include="partials/header.html"></div>
+
+<!-- Contact Hero Section -->
+<section class="contact-hero">
+  <div class="contact-hero-overlay">
+    <h1>Let’s Connect</h1>
+    <p>We're ready to support your business growth — reach out anytime.</p>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section class="contact-main container">
+    <div class="contact-flex">
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone (optional)</label>
+            <input type="text" id="phone" name="phone" placeholder="+92..." />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+<div class="contact-info">
+  <h2>Contact Details</h2>
+  <ul>
+    <li><strong>Email:</strong> hello@dasconsultancy.com</li>
+    <li><strong>Phone:</strong> +92 300 1234567</li>
+    <li><strong>Location:</strong> Office #4, ABC Tower, Islamabad</li>
+  </ul>
+
+ <div class="social-links">
+  <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+    <img src="images/icons/linkedin.svg" alt="LinkedIn" />
+  </a>
+  <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+    <img src="images/icons/facebook.svg" alt="Facebook" />
+  </a>
+  <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+    <img src="images/icons/instagram.svg" alt="Instagram" />
+  </a>
+</div>
+
+
+
+  <div class="map-box">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.6087326897114!2d73.07629649999998!3d33.6672987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df9545138b9fb1%3A0xf24be443ae2898e9!2stwinhub%20coworking!5e0!3m2!1sen!2s!4v1753944393923!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-container">
+      <h2>Prefer a Call Instead?</h2>
+      <p>Book your free consultation and let’s explore how we can grow your business together.</p>
+      <a href="contact.html" class="cta-button">Book a Free Consultation</a>
+    </div>
+  </section>
+
+  <!-- Footer (from partial) -->
+  <div data-include="partials/footer.html"></div>
+
+</body>
+</html>
